@@ -38,11 +38,11 @@ export const LoginForm = () => {
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-primary to-primary/80">
-              <span className="text-2xl font-bold text-primary-foreground">D</span>
+              <span className="text-2xl font-bold text-primary-foreground">W</span>
             </div>
           </div>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
-          <p className="text-muted-foreground">Sign in to your Devnovate account</p>
+          <p className="text-muted-foreground">Sign in to your The Writers' Hub account</p>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

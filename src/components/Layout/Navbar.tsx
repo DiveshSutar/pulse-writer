@@ -34,10 +34,10 @@ export const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-primary to-primary/80">
-            <span className="text-lg font-bold text-primary-foreground">D</span>
+            <span className="text-lg font-bold text-primary-foreground">W</span>
           </div>
           <span className="hidden font-bold text-xl text-gradient sm:inline-block">
-            Devnovate
+            The Writers' Hub
           </span>
         </Link>
 

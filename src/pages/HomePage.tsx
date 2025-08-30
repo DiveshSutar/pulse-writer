@@ -107,7 +107,7 @@ export default function HomePage() {
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
               Welcome to{" "}
-              <span className="text-gradient">Devnovate</span>
+              <span className="text-gradient">The Writers' Hub</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Discover, learn, and share knowledge with our community of developers. 

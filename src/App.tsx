@@ -4,6 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "@/components/Layout/Navbar";
+import { LoginForm } from "@/components/Auth/LoginForm";
+import { SignupForm } from "@/components/Auth/SignupForm";
 import HomePage from "./pages/HomePage";
 import CreateBlog from "./pages/CreateBlog";
 import MyBlogs from "./pages/MyBlogs";
@@ -22,6 +24,8 @@ const App = () => (
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginForm />} />
+          <Route path="/signup" element={<SignupForm />} />
           <Route path="/create" element={<CreateBlog />} />
           <Route path="/my-blogs" element={<MyBlogs />} />
           <Route path="/admin" element={<AdminDashboard />} />

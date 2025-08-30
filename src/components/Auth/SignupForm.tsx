@@ -43,7 +43,7 @@ export const SignupForm = () => {
       // Simulate signup API call
       await new Promise(resolve => setTimeout(resolve, 1500));
       toast.success("Account created successfully!", {
-        description: "Welcome to Devnovate! You can now start sharing your knowledge."
+        description: "Welcome to The Writers' Hub! You can now start sharing your knowledge."
       });
     } catch (error) {
       toast.error("Signup failed", {
@@ -60,11 +60,11 @@ export const SignupForm = () => {
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-primary to-primary/80">
-              <span className="text-2xl font-bold text-primary-foreground">D</span>
+              <span className="text-2xl font-bold text-primary-foreground">W</span>
             </div>
           </div>
-          <CardTitle className="text-2xl">Join Devnovate</CardTitle>
-          <p className="text-muted-foreground">Create your account and start blogging</p>
+          <CardTitle className="text-2xl">Join The Writers' Hub</CardTitle>
+          <p className="text-muted-foreground">Create your The Writers' Hub account</p>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
